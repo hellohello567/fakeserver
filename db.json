@@ -1,7 +1,7 @@
 {
   "simulations": [
   {
-"simulationID":1,
+"id":1,
 "sessionID":0,
 "participantID":1,
 "rula":{
@@ -32,7 +32,7 @@
   }
 }
 ,{
-"simulationID":2,
+"id":2,
 "sessionID":0,
 "participantID":1,
 "rula":{
@@ -61,6 +61,37 @@
     "tiles":[]
     }
   }
+},
+    {
+"id":2,
+"sessionID":0,
+"participantID":1,
+"rula":{
+	"finalRulaScore":7,
+	"rightUpperArm":4,
+	"leftUpperArm":0,
+	"rightLowerArm":1,
+	"leftLowerArm":0,
+	"rightWrist":0,
+	"leftWrist":0,
+	"rightLeg":1,
+	"leftLeg":1,
+	"neck":0,
+	"trunk":0
+	}
+,"spaghetti":{
+	"totalDistance":20,
+	"totalTime":300,
+	"centerPoint":{"x":0.0,"y":0.0},
+	"minCoords":{"x":0.0,"y":0.0},
+	"maxCoords":{"x":0.0,"y":0.0},
+	"traces":[],
+	"heatmap":{
+		"gridTilesNumberX":10,
+		"gridTilesNumberY":10,
+		"tiles":[]
+		}
+	}
 }
 ],
   "profile": {
