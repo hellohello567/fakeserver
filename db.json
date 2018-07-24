@@ -1,99 +1,13 @@
 {
-  "simulations": [
-  {
-"id":1,
-"sessionID":0,
-"participantID":1,
-"rula":{
-  "finalRulaScore":7,
-  "rightUpperArm":0,
-  "leftUpperArm":0,
-  "rightLowerArm":1,
-  "leftLowerArm":0,
-  "rightWrist":0,
-  "leftWrist":0,
-  "rightLeg":1,
-  "leftLeg":1,
-  "neck":0,
-  "trunk":0
-  }
-,"spaghetti":{
-  "totalDistance":0,
-  "totalTime":0,
-  "centerPoint":{"x":0.0,"y":0.0},
-  "minCoords":{"x":0.0,"y":0.0},
-  "maxCoords":{"x":0.0,"y":0.0},
-  "traces":[],
-  "heatmap":{
-    "gridTilesNumberX":0,
-    "gridTilesNumberY":0,
-    "tiles":[]
-    }
-  }
-}
-,{
-"id":2,
-"sessionID":0,
-"participantID":1,
-"rula":{
-  "finalRulaScore":5,
-  "rightUpperArm":6,
-  "leftUpperArm":7,
-  "rightLowerArm":1,
-  "leftLowerArm":4,
-  "rightWrist":0,
-  "leftWrist":0,
-  "rightLeg":1,
-  "leftLeg":1,
-  "neck":0,
-  "trunk":0
-  }
-,"spaghetti":{
-  "totalDistance":0,
-  "totalTime":0,
-  "centerPoint":{"x":1.0,"y":5.0},
-  "minCoords":{"x":0.0,"y":0.0},
-  "maxCoords":{"x":0.0,"y":0.0},
-  "traces":[],
-  "heatmap":{
-    "gridTilesNumberX":0,
-    "gridTilesNumberY":0,
-    "tiles":[]
-    }
-  }
-},
-    {
-"id":2,
-"sessionID":0,
-"participantID":1,
-"rula":{
-	"finalRulaScore":7,
-	"rightUpperArm":4,
-	"leftUpperArm":0,
-	"rightLowerArm":1,
-	"leftLowerArm":0,
-	"rightWrist":0,
-	"leftWrist":0,
-	"rightLeg":1,
-	"leftLeg":1,
-	"neck":0,
-	"trunk":0
-	}
-,"spaghetti":{
-	"totalDistance":20,
-	"totalTime":300,
-	"centerPoint":{"x":0.0,"y":0.0},
-	"minCoords":{"x":0.0,"y":0.0},
-	"maxCoords":{"x":0.0,"y":0.0},
-	"traces":[],
-	"heatmap":{
-		"gridTilesNumberX":10,
-		"gridTilesNumberY":10,
-		"tiles":[]
-		}
-	}
-}
-],
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
   "profile": {
     "name": "typicode"
   }
